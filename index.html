@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Personnel Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <h1>Software Personnel Management</h1>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Employees</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Performance</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="summary">
+                <div class="summary-item">
+                    <h2>Total Employees</h2>
+                    <p class="number">142</p>
+                    <p class="change">+6 from last month</p>
+                </div>
+                <div class="summary-item">
+                    <h2>Active Projects</h2>
+                    <p class="number">24</p>
+                    <p class="change">+2 from last month</p>
+                </div>
+                <div class="summary-item">
+                    <h2>Teams</h2>
+                    <p class="number">12</p>
+                    <p class="change">+1 from last month</p>
+                </div>
+                <div class="summary-item">
+                    <h2>Avg. Performance</h2>
+                    <p class="number">87%</p>
+                    <p class="change">+2% from last month</p>
+                </div>
+            </section>
+
+            <section id="project-status">
+                <h2>Project Status</h2>
+                <p>Current status of active projects</p>
+                <div class="pie-chart">
+                    <div class="pie-segment on-track"></div>
+                    <div class="pie-segment delayed"></div>
+                    <div class="pie-segment at-risk"></div>
+                </div>
+                <div class="project-status-list">
+                    <ul>
+                        <li><span class="status-label on-track-label">On Track</span> 58%</li>
+                        <li><span class="status-label delayed-label">Delayed</span> 17%</li>
+                        <li><span class="status-label at-risk-label">At Risk</span> 25%</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="recent-hires">
+                <h2>Recent Hires</h2>
+                <p>New employees in the last 30 days</p>
+                <div class="hire">
+                    <h3>John Smith</h3>
+                    <p class="date">Mar 15, 2023</p>
+                    <p class="role">Frontend Developer</p>
+                </div>
+                <div class="hire">
+                    <h3>Sarah Johnson</h3>
+                    <p class="date">Mar 12, 2023</p>
+                    <p class="role">UX Designer</p>
+                </div>
+                <div class="hire">
+                    <h3>Michael Brown</h3>
+                    <p class="date">Mar 10, 2023</p>
+                    <p class="role">Backend Developer</p>
+                </div>
+                <div class="hire">
+                    <h3>Emily Davis</h3>
+                    <p class="date">Mar 5, 2023</p>
+                    <p class="role">QA Engineer</p>
+                </div>
+            </section>
+
+            <section id="employee-distribution">
+                <h2>Employee distribution by department</h2>
+                <div class="bar-chart">
+                    <div class="bar" style="height: 60%"><span>Frontend</span></div>
+                    <div class="bar" style="height: 45%"><span>Backend</span></div>
+                    <div class="bar" style="height: 30%"><span>DevOps</span></div>
+                    <div class="bar" style="height: 15%"><span>QA</span></div>
+                    <div class="bar" style="height: 60%"><span>Design</span></div>
+                    <div class="bar" style="height: 45%"><span>PM</span></div>
+                    <div class="bar" style="height: 30%"><span>Other</span></div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

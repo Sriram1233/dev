@@ -1,0 +1,202 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search-box {
+    margin-right: 20px;
+}
+
+.search-box input {
+    padding: 5px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+#summary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.summary-item h2 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.summary-item .number {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.summary-item .change {
+    font-size: 0.8em;
+    color: #008000; /* Green for positive change */
+}
+
+#project-status {
+    margin-bottom: 20px;
+}
+
+#project-status h2 {
+    margin-bottom: 10px;
+}
+
+.pie-chart {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #4CAF50 58%,  /* On Track - Green */
+        #FF9800 17%,  /* Delayed - Orange */
+        #F44336 25%    /* At Risk - Red */
+    );
+    margin: 0 auto 10px;
+}
+
+.project-status-list {
+    text-align: center;
+}
+
+.project-status-list ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.project-status-list li {
+    margin-right: 15px;
+}
+
+.status-label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.on-track-label {
+    background-color: #4CAF50;
+}
+
+.delayed-label {
+    background-color: #FF9800;
+}
+
+.at-risk-label {
+    background-color: #F44336;
+}
+
+#recent-hires {
+    margin-bottom: 20px;
+}
+
+#recent-hires h2 {
+    margin-bottom: 10px;
+}
+
+.hire {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid #007bff; /* Blue accent */
+}
+
+.hire h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.hire .date {
+    font-size: 0.8em;
+    color: #777;
+}
+
+.hire .role {
+    font-size: 0.9em;
+    color: #555;
+}
+
+#employee-distribution {
+    margin-bottom: 20px;
+}
+
+#employee-distribution h2 {
+    margin-bottom: 10px;
+}
+
+.bar-chart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.bar {
+    width: 40px;
+    background-color: #007bff; /* Blue bars */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 5px;
+}
+
+.bar span {
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
